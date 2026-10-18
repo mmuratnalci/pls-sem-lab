@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=78.1.1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pls-sem-lab"
+version = "0.1.0"
+description = "A small partial least squares structural equation modeling toolkit."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy>=2.2.6,<3"]
+
+[tool.setuptools.packages.find]
+include = ["pls_sem*"]
